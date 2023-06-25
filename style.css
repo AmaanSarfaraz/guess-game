@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0%;
+  color: white;
+}
+body {
+  background-color: black;
+}
+#heading {
+  margin-top: 5rem;
+  color: white;
+  font-weight: 900;
+  font-size: 60px;
+  text-align: center;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header h4 {
+  color: white;
+  text-align: center;
+}
+header span {
+  color: black;
+  font-size: 100px;
+  text-align: center;
+  background-color: white;
+  width: 200px;
+  height: 150px;
+  margin-top: 2rem;
+}
+hr {
+  color: white;
+  width: 100%;
+  margin-top: 2rem;
+}
+section {
+  display: flex;
+}
+#mydiv,
+#mydiv2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+}
+#mydiv input {
+  width: 200px;
+  height: 60px;
+  border: solid white 4px;
+  background-color: black;
+  margin-top: 5rem;
+  font-size: 50px;
+  text-align: center;
+}
+.check {
+  color: black;
+  background-color: white;
+  width: 150px;
+  height: 50px;
+  margin-top: 1rem;
+  font-size: 35px;
+}
+#mydiv2 #message {
+  margin-top: 3rem;
+}
